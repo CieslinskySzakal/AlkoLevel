@@ -1,0 +1,19 @@
+@use 'typography';
+@use 'colors';
+@use 'animation';
+@use 'components';
+@use 'layout';
+@use 'small';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62, 5%;
+	scroll-behavior: smooth;
+}
